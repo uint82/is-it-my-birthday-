@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cursive
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.birthday {
+    background: url(partybackground.jpg) no-repeat center center/cover;
+    color: #8400ff;
+}
+
+.not-birthday {
+    background-color: #000;
+    color: #fff;
+}

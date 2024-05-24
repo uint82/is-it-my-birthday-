@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoTrue,content="width=device-width, initial-scale=1.0">
+    <title>Apakah kamu ulangtahun?</title>
+    <link rel="stylesheet" href="{% static 'birthday/styles.css' %}">
+</head>
+<body class="{% if ulangtahun %}birthday{% else %}not-birthday{% endif %}">
+    <div class="container">
+    
+            {% if ulangtahun %}
+            <h1>Happy Birthday!</h1>
+                SEMOGA PANJANG UMUR DAN SEHAT SELALU
+            {% else %}
+                <hI>Hari ini bukan ulangtahun kamu</h1>
+            {% endif %}
+    
+    </div>
+</body>
+</html>
